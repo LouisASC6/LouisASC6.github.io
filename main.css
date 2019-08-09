@@ -1,0 +1,103 @@
+html{
+    background-color: beige;
+}
+#Wel{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+
+.catagories {
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-between;
+    font-size: 20px;
+    text-align: center;
+    background-color: red;
+    padding: 15px;
+}
+
+#None {
+    text-align: center;
+}
+
+#Me {
+    display: flex;
+    justify-content: center;
+}
+
+#contactcard {
+    width: 250px;
+}
+
+.div {
+    display: flex;
+    justify-content: center;
+}
+
+#Hi {
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 500px;
+    height: 250px;
+    /* width: 1250px;
+    height: 200px; */
+}
+
+#AB {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+#Sch {
+    text-align: center;
+}
+
+#CF {
+    background-color: lightgray;
+    width: 500px;
+    height: 250px;
+}
+
+#Lol {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+#Pro {
+    text-align: center;
+}
+
+#P {
+    background-color: burlywood;
+    width: 500px;
+    height: 250px;
+}
+
+#L {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+#Other {
+    text-align: center;
+}
+
+#Yo {
+    background-color: lightgreen;
+    width: 500px;
+    height: 250px;
+}
+
+#Y {
+    text-align: center;
+    color: white;
+    font-size: 20px; 
+}
+
+

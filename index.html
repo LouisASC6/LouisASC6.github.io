@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html id="color" lang="en">
+    <head>
+        <meta charset="UTF-8">
+
+        <link rel="stylesheet" href="main.css">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>My Website</title>
+    </head>
+    <body>
+        <h1 id="Wel">Welcome to my Website</h1>
+        <div class = "catagories">
+        <br>
+        <div>About Me</div>
+        <div>Academics</div>
+        <div>Programs</div>
+        <div>Other</div>
+    </div>  
+    <br>
+    <br>
+    <div id="Me">
+            <img id="contactcard" src="images/Me.png">
+    </div>
+    <br>
+    <br>
+    <br>
+    <h1 id="None">About Me</h1>
+    <div class="div">
+    <div id="Hi">
+        <h1 id="AB">Who I Am</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+</div>
+    <br>
+    <br>
+    <br>
+    <h1 id="Sch"> Academics</h1>
+    <div class="div">
+    <div id="CF">
+        <h1 id="Lol">School</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+</div>
+    <br><br><br>
+    <h1 id="Pro">Programs</h1>
+    <div class="div">
+    <div id="P">
+        <h1 id="L">Clubs and <a href ="https://drive.google.com/drive/u/2/folders/19eKrAfLPA7yeEu-9Tl0YSLTakndt1eSW">Extracurricular Activities</a></h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+</div>
+    <br><br><br>
+    <h1 id="Other">Other</h1>
+    <div class="div">
+    <div id="Yo">
+        <h1 id="Y">Intrests</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+</div>
+
+    <script>
+        let image = document.getElementById("contactcard");
+        let counter = 0;
+        function changeImage () {
+            if(counter == 0) {
+                image.src = "images/Me.png";
+            }
+            else if (counter == 1) {
+                image.src = "images/Soocer.PNG";
+            }
+            else if (counter == 2) {
+                image.src = "images/Choir.PNG"
+            }
+            else if (counter == 3) {
+                image.src = "images/C2.PNG"
+                counter = -1;
+            }
+            counter += 1;
+
+            setTimeout(changeImage, 1000);
+        }
+
+        changeImage();
+    </script>
+    </body>
+</html>
